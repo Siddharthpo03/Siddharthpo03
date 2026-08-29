@@ -88,7 +88,7 @@
       <a href="https://work.siddharthp.com">
         <img src="./favicon.png" width="50" alt="Portfolio"/>
       </a>
-      <p><strong>Portfolio</strong></p>
+      <p><strong>Work</strong></p>
     </td>
   </tr>
 </table>
