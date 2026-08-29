@@ -80,7 +80,13 @@
     </td>
     <td align="center" style="padding: 10px;">
       <a href="https://siddharthp.com">
-        <img src="https://skillicons.dev/icons?i=devicon&theme=dark" width="50" alt="Portfolio"/>
+        <img src="./fav.png" width="90" height="60" alt="Portfolio"/>
+      </a>
+      <p><strong>Portfolio</strong></p>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <a href="https://work.siddharthp.com">
+        <img src="./favicon.png" width="50" alt="Portfolio"/>
       </a>
       <p><strong>Portfolio</strong></p>
     </td>
