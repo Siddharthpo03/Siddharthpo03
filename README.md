@@ -1,7 +1,7 @@
 <p align="center">
   <img 
-    src="https://svg-banners.vercel.app/api?type=glitch&text1=Siddharth%0APulugujja&width=900&height=200&color=%2300F0FF&bgColor=%230D1117"
-    alt="Siddharth Pulugujja"
+    src="https://svg-banners.vercel.app/api?type=glitch&text1=Siddharth%20Pulugujja&width=900&height=200&color=%2300F0FF&bgColor=%230D1117"
+    alt="Siddharth P"
   />
 </p>
 
@@ -22,7 +22,7 @@
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-### Backend, Databases & Tools
+### Backend, Databases & Systems
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -76,7 +76,7 @@
       <p><strong>LinkedIn</strong></p>
     </td>
     <td align="center" style="padding: 10px;">
-      <a href="mailto:your_email@example.com">
+      <a href="mailto:YOUR_EMAIL@example.com">
         <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="50" alt="Email"/>
       </a>
       <p><strong>Email</strong></p>
