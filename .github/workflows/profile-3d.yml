@@ -2,24 +2,30 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "0 18 * * *" # Runs daily at 18:00 UTC
+    - cron: "0 18 * * *" # 18:00 UTC = 11:30 PM IST
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate 3D Contribution Profile
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Siddharthpo03
-      - name: Commit & Push
+
+      - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A .
-          git commit -m "Generated 3D Profile Contrib" || exit 0
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: update 3D contribution profile"
           git push
