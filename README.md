@@ -1,67 +1,449 @@
+# 🧠 VisionX
+
+### Cross-Generator Deepfake Detection with CUDA Acceleration
+
 <p align="center">
-  <img src="Banner1.gif" width="400" height="300" alt="Banner"/>
+  <img src="Banner1.gif" width="400" height="300" alt="VisionX Banner"/>
 </p>
 
 <p align="center">
-  <img 
-    src="https://svg-banners.vercel.app/api?type=glitch&text1=Dheeraj%0AAlamuri&width=900&height=200&color=%231EB5FF&bgColor=%23F9E000"
-  />
+  <img src="https://svg-banners.vercel.app/api?type=glitch&text1=VISIONX&text2=Deepfake%20Detection&width=900&height=200&color=%231EB5FF&bgColor=%230B0F19" alt="VisionX Banner"/>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=1EB5FF&center=true&vCenter=true&width=750&lines=AI-Powered+Deepfake+Detection;Cross-Generator+Detection;CUDA+Accelerated+Inference;Video+%26+Face+Analysis" alt="Typing SVG"/>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=9CA3AF&vCenter=true&width=700&lines=B.Tech+%40+IIIT+Bhopal;Backend+Developer;AI+ML+Engineer)](https://git.io/typing-svg)
+---
 
+## 🔍 About VisionX
 
-<hr>
+**VisionX** is an AI-powered deepfake detection system designed to identify manipulated facial content in images and videos.
 
-# Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+The project combines **deep learning, computer vision, GPU acceleration, and a deployable inference pipeline** to analyze visual content and determine whether it is **Real** or **Fake**.
 
-##  Competitive Coding Profile
+Unlike a simple image-classification project, VisionX focuses on building an end-to-end detection pipeline:
 
-<table style="width: 100%; text-align: center; border-collapse: collapse;">
-  <tr>
-    <!-- Leetcode Section (1st Column) -->
-    <td style="width: 50%; padding: 10px; text-align: center;">
-      <h3>Leetcode Info</h3>
-      <img src="https://leetcard.jacoblin.cool/drunk_magnuscarlsen ?theme=unicorn&extension=activity" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
-    </td>
+```text
+Video / Image
+      │
+      ▼
+Frame Extraction
+      │
+      ▼
+Face Detection
+      │
+      ▼
+Face Preprocessing
+      │
+      ▼
+Deepfake Detection Model
+      │
+      ▼
+CUDA Accelerated Inference
+      │
+      ▼
+Prediction + Confidence
+      │
+      ▼
+Real / Fake
+```
 
-  
-  <td style="width: 50%; padding: 10px; text-align: center;">
-      <h3>Codeforces Info</h3>
-      <img src="https://codeforces-readme-stats.vercel.app/api/card?username=salaaar" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
-    </td>
-  </tr>
-</table>
+---
 
-<hr>
+## 🚀 Key Features
 
-## 📈 GitHub Activity
+* 🎭 **Deepfake Detection**
+* 🎥 **Video-based analysis**
+* 🖼️ **Image-based face analysis**
+* 👤 **Automatic face extraction**
+* 🧠 **PyTorch-based deep learning model**
+* ⚡ **CUDA/GPU acceleration**
+* 🔄 **Cross-generator detection**
+* 📊 **Confidence-based predictions**
+* 🌐 **API-based inference**
+* 🖥️ **Interactive detection interface**
+* 🔒 **Privacy-focused local processing**
+* 📦 Modular and extensible architecture
 
-<br clear="both">
+---
 
-<img src="https://raw.githubusercontent.com/dheeraj25406/dheeraj25406/output/snake.svg" alt="Snake animation" />
+## 🧠 What Problem Does VisionX Solve?
 
+Modern generative AI systems can create highly realistic manipulated videos and images.
 
-![](https://github-readme-stats.shion.dev/api?username=dheeraj25406&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>  ![](https://streak-stats.demolab.com/?user=dheeraj25406&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=dheeraj25406&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+Traditional detection systems often struggle when they encounter **deepfakes generated using techniques or generators that were not present in their training data**.
 
-##  Connect With Me
+VisionX aims to address this through:
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/dheeraj-alamuri254/">
-        <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="50"/>
-      </a>
-      <p><strong>LinkedIn</strong></p>
-    </td>
-    <td align="center">
-      <a href="mailto:adheerajhyd@gmail.com">
-        <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="50"/>
-      </a>
-      <p><strong>Email</strong></p>
-    </td>
-  </tr>
-</table>
+### Cross-Generator Detection
+
+Instead of focusing only on detecting a particular deepfake generation technique, VisionX is designed around the broader problem of detecting manipulation across different generators and manipulation methods.
+
+### GPU-Accelerated Processing
+
+Deepfake detection involves computationally expensive operations such as:
+
+* Video frame processing
+* Face detection
+* Image preprocessing
+* Neural network inference
+
+VisionX uses **CUDA acceleration** to utilize NVIDIA GPUs and reduce inference time.
+
+---
+
+## 🏗️ System Architecture
+
+```text
+                    ┌──────────────────┐
+                    │   User Input     │
+                    │ Image / Video    │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │ Input Validation │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │ Frame Extraction │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │  Face Detection  │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │ Preprocessing    │
+                    │ Resize / Normalize│
+                    └────────┬─────────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │ Deepfake Detector    │
+                  │      PyTorch         │
+                  └──────────┬───────────┘
+                             │
+                      CUDA / GPU
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │ Prediction Layer │
+                    └────────┬─────────┘
+                             │
+                    ┌────────┴────────┐
+                    ▼                 ▼
+                 REAL              FAKE
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Programming Languages
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+</p>
+
+### AI / Machine Learning
+
+<p>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+</p>
+
+### Computer Vision
+
+<p>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+</p>
+
+### GPU Computing
+
+<p>
+<img src="https://img.shields.io/badge/NVIDIA%20CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+</p>
+
+### Backend / Deployment
+
+<p>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+</p>
+
+### Data / Infrastructure
+
+<p>
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+</p>
+
+### Development
+
+<p>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
+</p>
+
+---
+
+## 📂 Project Structure
+
+```text
+VisionX/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── test_output/
+│
+├── src/
+│   ├── models/
+│   │   └── detector.py
+│   │
+│   ├── pipeline/
+│   │   ├── dataset.py
+│   │   ├── extract_faces.py
+│   │   └── ...
+│   │
+│   └── ...
+│
+├── tests/
+│
+├── notebooks/
+│
+├── scripts/
+│
+├── requirements.txt
+├── README.md
+└── ...
+```
+
+---
+
+## ⚡ CUDA Acceleration
+
+VisionX is designed to take advantage of NVIDIA GPUs through CUDA-enabled PyTorch.
+
+The model automatically uses the available computation device:
+
+```python
+device = torch.device(
+    "cuda" if torch.cuda.is_available() else "cpu"
+)
+
+model = model.to(device)
+```
+
+You can verify CUDA availability using:
+
+```bash
+python3 -c "import torch; print(torch.cuda.is_available())"
+```
+
+To check the detected GPU:
+
+```bash
+python3 -c "import torch; print(torch.cuda.get_device_name(0))"
+```
+
+---
+
+## 🧪 Model Pipeline
+
+The detection pipeline consists of several stages.
+
+### 1. Input
+
+VisionX accepts visual content such as:
+
+```text
+Image
+Video
+```
+
+### 2. Frame Extraction
+
+For video input, frames are sampled from the video for analysis.
+
+### 3. Face Detection
+
+Faces are extracted from the frames so that the model focuses on the facial region where manipulation artifacts are most relevant.
+
+### 4. Preprocessing
+
+Detected faces are:
+
+* Resized
+* Normalized
+* Converted into tensors
+* Prepared for model inference
+
+### 5. Deepfake Classification
+
+The processed face is passed through the VisionX detection model.
+
+The model produces a prediction representing:
+
+```text
+REAL
+   or
+FAKE
+```
+
+along with a confidence score.
+
+---
+
+## 📊 Evaluation
+
+VisionX can be evaluated using standard classification metrics:
+
+| Metric         | Purpose                               |
+| -------------- | ------------------------------------- |
+| Accuracy       | Overall classification correctness    |
+| Precision      | Reliability of fake predictions       |
+| Recall         | Ability to detect manipulated samples |
+| F1 Score       | Balance between precision and recall  |
+| ROC-AUC        | Overall classification performance    |
+| Inference Time | Detection speed                       |
+| FPS            | Video processing performance          |
+
+---
+
+## 🔬 Cross-Generator Evaluation
+
+A major goal of VisionX is evaluating how well the detector performs when the **generation technique differs between training and testing data**.
+
+```text
+Training Generator
+        │
+        ▼
+   VisionX Model
+        │
+        ▼
+Different Generator
+        │
+        ▼
+Generalization Test
+```
+
+This helps measure whether the model is learning meaningful manipulation artifacts rather than simply memorizing characteristics of a particular dataset or generator.
+
+---
+
+## 🖥️ Demo
+
+### Detection Interface
+
+<p align="center">
+  <img src="assets/demo.png" width="850" alt="VisionX Demo"/>
+</p>
+
+### Example Output
+
+```text
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        VISIONX RESULT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Prediction : FAKE
+Confidence : 94.72%
+
+Frames Analyzed : 32
+Faces Detected  : 29
+
+Device : NVIDIA CUDA GPU
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+> Replace `assets/demo.png` with an actual screenshot from your VisionX application.
+
+---
+
+## 🔐 Privacy
+
+VisionX is designed with privacy in mind.
+
+Where supported by the deployment configuration, media can be processed locally without requiring the user's original image or video to be uploaded to an external third-party AI service.
+
+---
+
+## 📈 Future Improvements
+
+* [ ] Temporal video analysis
+* [ ] Transformer-based detection
+* [ ] Multi-face tracking
+* [ ] Better cross-dataset generalization
+* [ ] Explainable AI / manipulation heatmaps
+* [ ] Real-time webcam detection
+* [ ] Distributed GPU inference
+* [ ] Model quantization
+* [ ] ONNX/TensorRT inference
+* [ ] Large-scale benchmark evaluation
+* [ ] Production monitoring
+
+---
+
+## 🎯 Project Goals
+
+VisionX is being developed with four main goals:
+
+**1. Accuracy**
+Detect manipulated facial content reliably.
+
+**2. Generalization**
+Perform well against previously unseen manipulation techniques.
+
+**3. Performance**
+Use GPU acceleration to make inference practical for video workloads.
+
+**4. Deployability**
+Move beyond a research notebook into a complete, usable detection system.
+
+---
+
+## 👨‍💻 Developer
+
+<p align="center">
+
+<b>Siddharth</b>
+
+<br>
+
+AI/ML • Computer Vision • CUDA • Backend Development
+
+</p>
+
+---
+
+## ⭐ Project Status
+
+```text
+VisionX
+│
+├── Dataset Pipeline       ██████████░░  In Progress
+├── Face Extraction        ██████████░░  In Progress
+├── Detection Model        █████████░░░  In Progress
+├── CUDA Acceleration      ████████░░░░  In Progress
+├── Evaluation             ██████░░░░░░  In Progress
+└── Deployment              ████░░░░░░░░  Planned
+```
+
+> VisionX is an actively developed project. Results and architecture may change as the model and evaluation pipeline improve.
+
+---
+
+<p align="center">
+  <b>VisionX • Detecting What Isn't Real</b>
+</p>
